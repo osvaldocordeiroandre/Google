@@ -210,3 +210,31 @@ footer{
 .footer2 li:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 911px){
+    
+    .disable{
+        display: none;
+    }
+
+    .search{
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 425px){
+    .search{
+        width: 90%;
+    }
+
+    .footer-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arruma{
+        margin-right: 30px;
+    }
+}
